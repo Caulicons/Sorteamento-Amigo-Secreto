@@ -32,6 +32,7 @@ const Sorteio = () => {
           <option>Selecione seu nome</option>
           {participantes.map(participante => <option  className={styles.form_option} value={participante} key={participante}>{participante}</option>)}
         </select>
+        <p>Clique em em sortear para ver quem é seu amigo secreto!</p>
         <button
           type='submit'
           className={styles.form_button}> Sortear!</button>
