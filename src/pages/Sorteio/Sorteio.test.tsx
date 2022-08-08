@@ -1,4 +1,5 @@
-import { fireEvent, render, screen } from "@testing-library/react";
+import { act, fireEvent, render, screen } from "@testing-library/react";
+import { notDeepEqual } from "assert";
 import { RecoilRoot } from "recoil";
 import useListaDeParticipantes from "state/hooks/useListaDeParticipantes";
 import { useResultadoSorteio } from "state/hooks/useResultadoSorteio";
@@ -58,6 +59,34 @@ describe('na página de sorteio', () => {
     const mensagem = screen.getByRole('alert');
     expect(mensagem).toBeInTheDocument()
   })
+
+  test('o amigo secreto é exibido quando solicitado.', () => {
+    jest.useFakeTimers()
+
+    render(<RecoilRoot>
+      <Sorteio />
+    </RecoilRoot>)
+
+    const select = screen.getByPlaceholderText('Selecione seu nome')
+    fireEvent.change(select, {
+      target: {
+        value: participantes[0]
+      }
+    })
+
+    const button = screen.getByRole('button');
+    fireEvent.click(button)
+
+    const mensagem = screen.getByRole('alert');
+    expect(mensagem).toBeInTheDocument()
+
+    act(() => {
+      jest.runAllTimers()
+    });
+    
+    expect(mensagem).not.toBeInTheDocument()
+  })
+
 
   test('O componente Sorteio deve conter essa estrutura', () => {
 

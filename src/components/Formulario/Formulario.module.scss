@@ -26,11 +26,11 @@
 }
 
 .mensagemError {
-  padding: 18px 24px;
-  background-color: rgb(255, 171, 171);
-  border: solid 1px rgb(156, 0, 0);
-  color: rgb(128, 0, 0); 
-  border-radius: 10px;
+  color: #842029;
+  background-color: #f8d7da;
+  padding: 16px;
+  border: 1px solid #f5c2c7;
+  border-radius: 8px;
 }
 
 @media screen and (min-width: $width-desktop) {
