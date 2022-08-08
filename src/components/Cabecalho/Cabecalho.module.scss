@@ -1,0 +1,44 @@
+@import 'styles/variaveis';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: $azul;
+  text-align: center;
+  
+  .imagens_desktop{
+    display: none;
+  }
+
+  .logo_mobile{
+    width: 100%;
+    max-width: 220px;
+    position: relative;
+    top: 27px;
+  }
+
+  .participante_mobile {
+    width: 100%;
+    max-width: 430px;
+    min-width: 290px;
+    position: relative;
+    top: 27px;
+  }
+}
+
+
+@media screen and (min-width: $width-desktop ){
+    .container{
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      .imagens_desktop{display: block}
+      .imagens_mobile{display: none}
+
+      .participante_desktop{
+        position: relative;
+        top: 30px
+      }
+    }
+}

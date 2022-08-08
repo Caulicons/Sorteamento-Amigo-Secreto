@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`O componente Cadastro deve conter essa estrutura Tirar um print 1`] = `
+<div>
+  <form
+    class="form"
+  >
+    <input
+      class="form_input"
+      placeholder="Insira os nomes dos participantes"
+      type="text"
+      value=""
+    />
+    <button
+      class="form_button"
+      type="submit"
+    >
+      Adicionar
+    </button>
+  </form>
+  
+  <ul
+    class="participantes"
+  />
+  <footer
+    class="footer"
+  >
+    <button
+      class="footer_button"
+    >
+      Iniciar Brincadeira !
+    </button>
+    <img
+      alt="Sacola de presentes."
+      class="footer_sacolas"
+      src="sacolas.png"
+    />
+  </footer>
+</div>
+`;

@@ -1,0 +1,40 @@
+@import 'styles/variaveis';
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  justify-content: center;
+  align-items: center;
+  &_button {
+    width: 180px;
+    padding:16px; 
+    background-color: $laranja;
+    color: $branco;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 2rem;
+    border: solid 1px #000;
+    box-shadow: 4px 4px 0px #000000;
+  &:hover {
+    cursor: pointer;
+    background-color: $azul;
+  }
+  }
+
+  p{
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: $width-desktop) {
+  .footer {
+    flex-direction: row;
+
+    &_button {
+      width: 250px;
+      padding:30px 32px; 
+    }
+  }
+}

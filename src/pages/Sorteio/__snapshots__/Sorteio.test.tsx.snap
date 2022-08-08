@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`na página de sorteio O componente Cadastro deve conter essa estrutura 1`] = `
+<div>
+  <form
+    class="form"
+  >
+    <select
+      class="form_select"
+      name="selecionarParticipante"
+      placeholder="Selecione seu nome"
+    >
+      <option>
+        Selecione seu nome
+      </option>
+      <option
+        class="form_option"
+        value="amaral"
+      >
+        amaral
+      </option>
+      <option
+        class="form_option"
+        value="cabral"
+      >
+        cabral
+      </option>
+      <option
+        class="form_option"
+        value="lebral"
+      >
+        lebral
+      </option>
+    </select>
+    <button
+      class="form_button"
+      type="submit"
+    >
+       Sortear!
+    </button>
+  </form>
+  
+  <img
+    alt="Aviãozinho de papel"
+    class="aviaozinho"
+    src="aviao.png"
+  />
+</div>
+`;
+
+exports[`na página de sorteio O componente Sorteio deve conter essa estrutura 1`] = `
+<div>
+  <form
+    class="form"
+  >
+    <select
+      class="form_select"
+      name="selecionarParticipante"
+      placeholder="Selecione seu nome"
+    >
+      <option>
+        Selecione seu nome
+      </option>
+      <option
+        class="form_option"
+        value="amaral"
+      >
+        amaral
+      </option>
+      <option
+        class="form_option"
+        value="cabral"
+      >
+        cabral
+      </option>
+      <option
+        class="form_option"
+        value="lebral"
+      >
+        lebral
+      </option>
+    </select>
+    <button
+      class="form_button"
+      type="submit"
+    >
+       Sortear!
+    </button>
+  </form>
+  
+  <img
+    alt="Aviãozinho de papel"
+    class="aviaozinho"
+    src="aviao.png"
+  />
+</div>
+`;
+
+exports[`na página de sorteio o código deve ficar dessa forma 1`] = `
+<div>
+  <form
+    class="form"
+  >
+    <select
+      class="form_select"
+      name="selecionarParticipante"
+      placeholder="Selecione seu nome"
+    >
+      <option>
+        Selecione seu nome
+      </option>
+      <option
+        class="form_option"
+        value="amaral"
+      >
+        amaral
+      </option>
+      <option
+        class="form_option"
+        value="cabral"
+      >
+        cabral
+      </option>
+      <option
+        class="form_option"
+        value="lebral"
+      >
+        lebral
+      </option>
+    </select>
+    <button
+      class="form_button"
+      type="submit"
+    >
+       Sortear!
+    </button>
+  </form>
+  
+  <img
+    alt="Aviãozinho de papel"
+    class="aviaozinho"
+    src="aviao.png"
+  />
+</div>
+`;
