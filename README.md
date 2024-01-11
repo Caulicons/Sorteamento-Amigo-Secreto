@@ -1,46 +1,19 @@
-# Getting Started with Create React App
+# Secret Friend 🎲
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Thinking about helping with the secret friend?
 
-## Available Scripts
+### Preview
 
-In the project directory, you can run:
+<img width=100% src="./preview.gif"/>
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This is the secret friend project that I did as part of a guided Alura course with the oriented [Vinicios Neves](https://github.com/viniciosneves), applying knowledge of TDD (Test-Driven Development), which means test-driven development that basically focuses on clearly explaining the business rule of the project/feature you want to create using tests for different types of testing such as unit, integration, or E2E. It may seem like a somewhat bureaucratic development style, but it certainly has its benefits, such as clarifying the behavior that the code should have as well as being addictive when the test passes. ✅
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tools
 
-### `npm test`
+- 🎲 jest - to create the tests.
+- 🎲 React with TypeScript.
+- 🎲 ts-shuffle - to guess ? Shuffler the names of secret friends.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you want, run the tests and see everything in green. run script npm run test.
